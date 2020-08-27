@@ -8,7 +8,9 @@ g++ ATM.cpp
 ```
 
 ### Run instruction:
-To execute the binary, we can simply run the executable using `./a.out`
+To execute the binary, you can simply run the executable using `./a.out`
+To run with input file, you can give command `./a.out < input.txt`
+The test scenario creates three accounts and check the deposit of one account. For simplicity, the source code prompts to take input of three user account information.
 
 
 To run successfully, the user need to provide inputs as prompted. The first step is to create new accounts. After successful creation of new accounts the user can then perform the following transactions: i. Check Balance, ii) Deposit, and iii) Withdrawal.
